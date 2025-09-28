@@ -1,0 +1,49 @@
+name: k_anime
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  url_launcher: ^6.1.7
+  youtube_player_iframe: ^5.2.2
+  http: ^1.1.0
+  cached_network_image: ^3.3.0
+  tflite_flutter: ^0.11.0
+  flutter_launcher_icons: ^0.13.1
+  lottie: ^2.2.0
+  animated_background: ^2.0.0
+  flutter_inappwebview: ^6.0.0
+  convex_bottom_bar: ^3.2.0
+  carousel_slider: ^5.0.0
+
+  cupertino_icons: ^1.0.8
+  flutter_dotenv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/similarity_model.tflite
+    - assets/movies_vectors.json
+    - assets/animated_logo_for_splash_screen.json
+    - .env
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/movie_icon.png"
