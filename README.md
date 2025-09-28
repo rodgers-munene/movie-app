@@ -1,4 +1,4 @@
-# k_anime
+# k_movies
 
 A new Flutter project.
 
